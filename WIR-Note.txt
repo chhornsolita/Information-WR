@@ -1,0 +1,3 @@
+python -> string/regex
+SKlearnn -> countvectorizer
+nLTK -> stopword/punctuation, document to word, list vocabulary
