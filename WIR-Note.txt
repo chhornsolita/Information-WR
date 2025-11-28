@@ -1,3 +1,11 @@
 python -> string/regex
 SKlearnn -> countvectorizer
 nLTK -> stopword/punctuation, document to word, list vocabulary
+
+11/28/2025
+
+embadding dim size = no limit depend on weight since we train in Nueral Network
+
+embadding value :
+   - positive = samantic meaning
+   - negative = opposite meaning
