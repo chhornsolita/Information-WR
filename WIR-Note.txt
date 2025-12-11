@@ -9,3 +9,41 @@ embadding dim size = no limit depend on weight since we train in Nueral Network
 embadding value :
    - positive = samantic meaning
    - negative = opposite meaning
+
+
+
+# Explainable Machine Learning
+Date: 11/28/2025
+KNN cannot use with duplicate data
+
+1. Linear Models
+1.1. Linear Regression
+1.1.1. EDA
+horsepower type object is not right cuz its data is in number
+origin : type int64 in not right cuz its data is in letter(ex. usa..... and we need to encode it into number usa=1,.....)
+
+1.1.1. EDA: Bivariate analysis
+
+ make sure to plot this graph with quantitative data(number data)
+ origin column must use to predict mpg
+  When we use polynomail feature they introduce with regularization
+
+1.1.4. Regularization: Ridge Regression
+ Magnitde use for make coefficients smaller
+
+ Issue	In MPG dataset	Ridge helps by
+Multicollinearity	weight ↔ horsepower ↔ displacement	shrinking coefficients
+Small dataset	only ~400 rows	reducing overfitting
+Large coefficients	unstable predictions	stabilizing the model
+
+Use Cross validation to choose alpha value
+
+05/12/2025
+
+Cross validation use to 
+
+Decision tree is similar to KNN
+
+pureness 
+
+KNN, Decision tree afraid of duplicated data
